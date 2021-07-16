@@ -1,5 +1,3 @@
-import time
-from .__version__ import __author__, __license__, __version__
-
-print("\nthistle library loaded")
-print(time.ctime() + "\n")
+__author__ = "Justin G. Mitchell (jgmitchell@gmail.com)"
+__license__ = "MIT"
+__version__ = "0.0.1"
