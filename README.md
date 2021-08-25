@@ -4,6 +4,11 @@ Collection of Python tools and functions. Created and used by me on the regular.
 
 May or may not be useful to others.
 
+## Why
+These are things I always find myself using and/or recreating regularly for my day to day work.
+
+I'm a big believer in open source and figure if someone else can use them, make them better, or simply learn something new then I want that to happen.
+
 ## Tools
 ### get_wbx_status.py
 Pulls status for Webex based services from https://status.webex.com/ and displays them in human friendly CLI output.
