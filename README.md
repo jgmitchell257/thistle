@@ -9,6 +9,10 @@ These are things I always find myself using and/or recreating regularly for my d
 
 I'm a big believer in open source and figure if someone else can use them, make them better, or simply learn something new then I want that to happen.
 
+* /bash - dumping ground for bash scripts and notes
+* /docs - documentation
+* /thistle - functions, modules, and other common goods
+
 ## Tools
 ### get_certificate_details.py
 ```
