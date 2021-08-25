@@ -20,3 +20,16 @@ Share content - Operational
 ```
 ### port-scanner.py
 Simple port scanner for demonstration purposes.
+```
+$ python port-scanner.py --host google.com
+[-] google.com:21 - FTP
+[-] google.com:22 - SSH
+[-] google.com:23 - telnet
+[-] google.com:69 - TFTP
+[+] google.com:80 - HTTP
+[+] google.com:443 - Secure HTTP
+[-] google.com:5060 - SIP
+[-] google.com:5061 - Secure SIP
+[-] google.com:6970 - Cisco phone/Jabber TFTP
+[-] google.com:8443 - Cisco secure HTTP/UDS
+```
