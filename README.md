@@ -1,6 +1,6 @@
 # thistle
 
-Collection of tools and functions.
+Collection of Python tools and functions. Created and used by me on the regular.
 
 May or may not be useful to others.
 
