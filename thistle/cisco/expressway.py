@@ -5,9 +5,9 @@ Cisco Expressway
 """
 
 
-class Expressway:
+class Expressway(object):
     def __init__(self, hostname):
         self.hostname = hostname
     
-    def validate():
+    def validate_server(self):
         ...

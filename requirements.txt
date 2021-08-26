@@ -1,0 +1,15 @@
+Package            Version
+------------------ ---------
+certifi            2021.5.30
+cffi               1.14.6
+charset-normalizer 2.0.4
+cryptography       3.4.8
+idna               3.2
+lxml               4.6.3
+pip                21.2.4
+pycparser          2.20
+requests           2.26.0
+selenium           3.141.0
+setuptools         57.4.0
+urllib3            1.26.6
+wheel              0.37.0
