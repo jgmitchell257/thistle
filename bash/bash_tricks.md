@@ -3,6 +3,7 @@
 
 # Get DNS and networking information
 `dig <hostname>`
+
 `whois -v <ip_address> | grep origin -i`
 
 Create a file of patterns to search for and use that to search for multiple strings at once:
