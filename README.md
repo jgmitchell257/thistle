@@ -1,8 +1,8 @@
 # thistle
 
-Collection of Python tools and functions. Created and used by me on the regular.
+Collection of Python tools, functions, shell scripts, and notes. Created and used by me on the regular.
 
-May or may not be useful to others.
+Mostly having to do with Cisco UC servers and infrastructure. May or may not be useful to others.
 
 ## Why
 These are things I always find myself using and/or recreating regularly for my day to day work.
