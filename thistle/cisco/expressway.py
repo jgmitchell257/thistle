@@ -7,4 +7,7 @@ Cisco Expressway
 
 class Expressway:
     def __init__(self, hostname):
-        super().__init__()
+        self.hostname = hostname
+    
+    def validate():
+        ...
