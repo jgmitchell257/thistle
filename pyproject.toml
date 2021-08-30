@@ -11,6 +11,8 @@ lxml = "^4.6.3"
 selenium = "^3.141.0"
 requests = "^2.26.0"
 cryptography = "^3.4.8"
+paramiko = "^2.7.2"
+paramiko-expect = "^0.3.0"
 
 [tool.poetry.dev-dependencies]
 
