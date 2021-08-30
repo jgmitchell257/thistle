@@ -9,6 +9,11 @@ These are things I always find myself using and/or recreating regularly for my d
 
 I'm a big believer in open source and figure if someone else can use them, make them better, or simply learn something new then I want that to happen.
 
+## Install
+I use [poetry](https://python-poetry.org/) to manage my virtual environments, libraries, and modules. I recommend it to all my friends and family.
+
+For now, I recommend cloning the thistle repo locally and then using [poetry](https://python-poetry.org/) to install the requirements in it's own virtual environment.
+
 ## Tools
 - __/bash__ - dumping ground for bash scripts and cli command notes
 - __/docs__ - documentation (yeah, right)
