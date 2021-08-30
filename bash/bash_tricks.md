@@ -31,3 +31,6 @@ $ grep -r password .
 ./thistle/cisco/expressway_v1.py:    def __init__(self, hostname, username, password):
 ./thistle/cisco/expressway_v1.py:        super().__init__(hostname, username, password)
 ```
+
+AWK + GREP + SED
+https://arstechnica.com/gadgets/2021/08/linux-bsd-command-line-101-using-awk-sed-and-grep-in-the-terminal/
