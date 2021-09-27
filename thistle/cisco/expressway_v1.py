@@ -44,6 +44,7 @@ class Expressway:
         self.searchrule_uri = self.base_uri + "/common/searchrule"
         self.ntpserver_uri = self.base_uri + "/common/time/ntpserver"
         self.ntpstatus_uri = self.base_uri + "/common/time/status"
+        self.sysinfo_uri = self.base_uri + "/sysinfo"
         self.timezone_uri = self.base_uri + "/common/time/timezone"
 
     def __repr__(self):
@@ -227,6 +228,10 @@ class Expressway:
         response = requests.put(self.timezone_uri, verify=False, auth=(self.exp_user, self.exp_pass), json={"TimeZone":tz})
         return response
     
+    def getSysInfo(self) -> dict:
+        response = requests.get(self.sysinfo_uri, verify=False, auth=(self.exp_user, self.exp_pass)).json()
+        return response
+
 
 class ExpCore(Expressway):
     """Child class to define an expressway-c server and functions specific to Core servers"""
