@@ -1,0 +1,17 @@
+#!/usr/bin/expect -f
+# usage - ./ccm.exp hostname username password
+# Logs into CUCM, sets security to permissive, then shutdown the server
+#-------------------
+
+set timeout -1
+spawn ssh [lindex $argv 1]@[lindex $argv 0]
+match_max 100000
+expect "password: "
+send -- "[lindex $argv 2]\r"
+expect "admin:"
+send -- "utils os secure permissive\r"
+expect "admin:"
+send -- "utils system shutdown\r"
+expect "Enter (yes/no)? "
+send -- "yes\r"
+expect eof
